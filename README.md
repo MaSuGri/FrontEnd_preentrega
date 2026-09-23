@@ -1,1 +1,1 @@
-# Galeria de arte Pergamino
+# Galeria de arte Pergamino, un espacio creativo.
