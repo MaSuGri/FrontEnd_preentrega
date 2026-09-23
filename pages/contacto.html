@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería de Arte | Contacto</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Galería de Arte de Pergamino</h1>
+        <div class="logo-card">
+          <img src="/img/descarga.jpg" alt="Logo de la Galería" />
+        </div>
+      </div>
+      <div>
+        <nav class="nav ul">
+          <ul>
+            <li><a href="/index.html" class="activo">Inicio</a></li>
+            <li><a href="./obras.html">Obras</a></li>
+            <li><a href="./contacto.html" class="activo">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h2>Ponte en Contacto</h2>
+
+      <div class="contacto-container">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+
+          <div class="form-group">
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" required />
+          </div>
+          <div class="form-group">
+            <label for="telefono">Número de Teléfono</label>
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="Ej: +54 911 12345678" />
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje o Consulta sobre Obras</label>
+            <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+          </div>
+
+          <button type="submit">Enviar Mensaje</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2026 Galería de Arte Pergamino. Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
